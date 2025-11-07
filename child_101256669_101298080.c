@@ -17,7 +17,7 @@ int main() {
 		exit(1);
 	}
 
-	// sem set up
+	// sem set up 
 	key_t key_sem = 5678;
 	int semid = semget(key_sem, 1, 0666);
 
